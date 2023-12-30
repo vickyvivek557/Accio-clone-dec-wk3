@@ -29,8 +29,9 @@ nav{
     color: #012555;
     font-family: Bai Jamjuree;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 25px;
 }
+
 #vertical-line{
     height: 40px;
     width: 1px;
@@ -44,18 +45,36 @@ nav{
 }
 #horizontal-list>li{
     display: inline;
-    margin-inline: 20px;
     line-height: 155%;
+}
+
+.list-item{
+    margin-inline: 20px;
 }
 nav>button{
     margin-right: 80px;
-    /* margin-top: 20px; */
     height: 40px;
     width: 100px;
     border-radius: 5px;
     border-color: #2f80ed;
-    color: rgb(4, 179, 248);
+    color: #2F80ED;
     background-color: white;
-    font-size: 18px;
+    font-size: 14px;
     font-style: italic;
+    font-weight: 400;
+}
+.pointer:hover{
+    cursor: pointer;
+}
+.anounce-bar{
+    height: 40px;
+    width: 100vw;
+    position: fixed;
+    background-color:#2F80ED;
+    color: white;
+    font-family: Satoshi,sans-serif;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
