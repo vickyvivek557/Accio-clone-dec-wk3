@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin-left: 50px;
+}
+#logo *{
+    margin-right: 10px;
+    padding-top: 5px;
+}
+#vertical-line{
+    height: 40px;
+    width: 1px;
+    background-color: rgb(205, 201, 201);
+}
+
+#menu-list>ul{
+    list-style: none;
+    padding: 0;
+}
+#horizontal-list>li{
+    display: inline;
+}
